@@ -1,51 +1,3 @@
-export const PixelCoin = ({ className = "" }: { className?: string }) => (
-  <div className={`inline-block ${className}`}>
-    <div className="w-6 h-6 grid grid-cols-6 grid-rows-6 gap-0">
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-    </div>
-  </div>
-);
-
 export const PixelBlock = ({ className = "" }: { className?: string }) => (
   <div className={`inline-block ${className}`}>
     <div className="w-8 h-8 grid grid-cols-8 grid-rows-8 gap-0">
@@ -212,468 +164,70 @@ export const PixelArrow = ({ className = "" }: { className?: string }) => (
   </div>
 );
 
-// NEW ICON SUGGESTIONS:
-
-export const PixelHeart = ({ className = "" }: { className?: string }) => (
-  <div className={`inline-block ${className}`}>
-    <div className="w-8 h-7 grid grid-cols-8 grid-rows-7 gap-0">
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-    </div>
-  </div>
-);
-
-export const PixelDiamond = ({ className = "" }: { className?: string }) => (
-  <div className={`inline-block ${className}`}>
-    <div className="w-6 h-6 grid grid-cols-6 grid-rows-6 gap-0">
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-    </div>
-  </div>
-);
-
-export const PixelComputer = ({ className = "" }: { className?: string }) => (
+export const PixelCoffee = ({ className = "" }: { className?: string }) => (
   <div className={`inline-block ${className}`}>
     <div className="w-8 h-8 grid grid-cols-8 grid-rows-8 gap-0">
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-transparent"></div>
+      {/* Steam */}
       <div className="bg-transparent"></div>
       <div className="bg-black"></div>
+      <div className="bg-transparent"></div>
       <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
+      <div className="bg-transparent"></div>
+      <div className="bg-transparent"></div>
       <div className="bg-transparent"></div>
       <div className="bg-transparent"></div>
       
+      {/* Mug top */}
       <div className="bg-black"></div>
       <div className="bg-black"></div>
       <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-    </div>
-  </div>
-);
-
-export const PixelGear = ({ className = "" }: { className?: string }) => (
-  <div className={`inline-block ${className}`}>
-    <div className="w-8 h-8 grid grid-cols-8 grid-rows-8 gap-0">
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-    </div>
-  </div>
-);
-
-export const PixelLightning = ({ className = "" }: { className?: string }) => (
-  <div className={`inline-block ${className}`}>
-    <div className="w-6 h-8 grid grid-cols-6 grid-rows-8 gap-0">
-      <div className="bg-transparent"></div>
       <div className="bg-black"></div>
       <div className="bg-black"></div>
       <div className="bg-transparent"></div>
       <div className="bg-transparent"></div>
       <div className="bg-transparent"></div>
       
+      {/* Mug body with handle start */}
       <div className="bg-black"></div>
       <div className="bg-white"></div>
       <div className="bg-white"></div>
+      <div className="bg-white"></div>
+      <div className="bg-black"></div>
       <div className="bg-black"></div>
       <div className="bg-transparent"></div>
       <div className="bg-transparent"></div>
       
+      {/* Mug body with handle */}
       <div className="bg-black"></div>
       <div className="bg-white"></div>
       <div className="bg-white"></div>
       <div className="bg-white"></div>
       <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-    </div>
-  </div>
-);
-
-export const PixelRocket = ({ className = "" }: { className?: string }) => (
-  <div className={`inline-block ${className}`}>
-    <div className="w-6 h-8 grid grid-cols-6 grid-rows-8 gap-0">
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-    </div>
-  </div>
-);
-
-export const PixelCode = ({ className = "" }: { className?: string }) => (
-  <div className={`inline-block ${className}`}>
-    <div className="w-8 h-6 grid grid-cols-8 grid-rows-6 gap-0">
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
       <div className="bg-transparent"></div>
       <div className="bg-black"></div>
       <div className="bg-transparent"></div>
       
+      {/* Mug body with handle */}
       <div className="bg-black"></div>
+      <div className="bg-white"></div>
+      <div className="bg-white"></div>
       <div className="bg-white"></div>
       <div className="bg-black"></div>
       <div className="bg-transparent"></div>
+      <div className="bg-black"></div>
       <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
       
+      {/* Mug body with handle end */}
       <div className="bg-black"></div>
       <div className="bg-white"></div>
       <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
       <div className="bg-white"></div>
       <div className="bg-black"></div>
+      <div className="bg-black"></div>
+      <div className="bg-transparent"></div>
+      <div className="bg-transparent"></div>
       
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-    </div>
-  </div>
-);
-
-export const PixelFlag = ({ className = "" }: { className?: string }) => (
-  <div className={`inline-block ${className}`}>
-    <div className="w-8 h-8 grid grid-cols-8 grid-rows-8 gap-0">
+      {/* Mug bottom */}
       <div className="bg-black"></div>
       <div className="bg-black"></div>
       <div className="bg-black"></div>
@@ -683,129 +237,7 @@ export const PixelFlag = ({ className = "" }: { className?: string }) => (
       <div className="bg-transparent"></div>
       <div className="bg-transparent"></div>
       
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-    </div>
-  </div>
-);
-
-export const PixelTrophy = ({ className = "" }: { className?: string }) => (
-  <div className={`inline-block ${className}`}>
-    <div className="w-8 h-8 grid grid-cols-8 grid-rows-8 gap-0">
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-white"></div>
-      <div className="bg-white"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      <div className="bg-transparent"></div>
-      
+      {/* Base/saucer */}
       <div className="bg-black"></div>
       <div className="bg-black"></div>
       <div className="bg-black"></div>
@@ -813,16 +245,7 @@ export const PixelTrophy = ({ className = "" }: { className?: string }) => (
       <div className="bg-black"></div>
       <div className="bg-black"></div>
       <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
+      <div className="bg-transparent"></div>
     </div>
   </div>
 );

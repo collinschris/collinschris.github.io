@@ -3,7 +3,7 @@ import { Button } from './components/ui/button';
 import { Card } from './components/ui/card';
 import { Badge } from './components/ui/badge';
 import { Github, Linkedin, ExternalLink } from 'lucide-react';
-import { PixelBlock, PixelStar, PixelArrow } from './components/PixelArt';
+import { PixelBlock, PixelStar, PixelArrow, PixelCoffee } from './components/PixelArt';
 
 export default function App() {
   const [displayText, setDisplayText] = useState('');
@@ -68,7 +68,7 @@ export default function App() {
         <div className="container mx-auto px-4 py-4">
           <nav className="flex justify-between items-center">
             <div className="flex items-center gap-2">
-              <PixelBlock />
+              <PixelStar />
               <span className="font-bold">CHRIS COLLINS</span>
             </div>
             <div className="flex space-x-8">
@@ -98,7 +98,7 @@ export default function App() {
             <PixelArrow />
             <div className="flex gap-4">
               {Array(3).fill(0).map((_, i) => (
-                <PixelBlock key={i} />
+                <PixelCoffee key={i} />
               ))}
             </div>
             <PixelArrow className="rotate-180" />
