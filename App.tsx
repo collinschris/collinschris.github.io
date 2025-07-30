@@ -27,32 +27,21 @@ export default function App() {
   }, []);
 
   const skillCategories = {
-    'DATA STORES': ['POSTGRES', 'BIGQUERY', 'BIGTABLE', 'GCS'],
-    'DATA MOVEMENT': ['APACHE BEAM', 'DATAFLOW', 'AIRFLOW', 'PUB/SUB', 'KAFKA'],
+    'DATA STORES': ['POSTGRES', 'BIGQUERY', 'BIGTABLE', 'ELASTICSEARCH', 'GCS'],
+    'DATA MOVEMENT': ['APACHE BEAM', 'DATAFLOW', 'AIRFLOW', 'DBT', 'PUB/SUB', 'KAFKA'],
     'LANGUAGES': ['JAVA', 'PYTHON', 'SQL'],
     'OBSERVABILITY': ['PROMETHEUS', 'GRAFANA'],
-    'INFRASTRUCTURE': ['TERRAFORM', 'KUBERNETES', 'HELM']
+    'INFRASTRUCTURE': ['TERRAFORM', 'KUBERNETES', 'HELM'],
+    'LEADERSHIP': ['GROWING PEOPLE AND TEAMS', 'CONSENSUS BUILDING', 'DEFINING VISION']
   };
 
   const projects = [
     {
-      title: 'DISTRIBUTED TASK QUEUE',
-      description: 'HIGH-PERFORMANCE TASK PROCESSING SYSTEM WITH REDIS AND GO',
-      tech: ['GO', 'REDIS', 'DOCKER'],
+      title: 'COMING SOON...',
+      description: '',
+      tech: ['HOPES', 'DREAMS'],
       status: 'LIVE'
     },
-    {
-      title: 'REALTIME CHAT APP',
-      description: 'WEBSOCKET-BASED MESSAGING WITH REACT AND NODE.JS',
-      tech: ['REACT', 'NODE.JS', 'WEBSOCKETS'],
-      status: 'LIVE'
-    },
-    {
-      title: 'API MONITORING TOOL',
-      description: 'AUTOMATED API HEALTH CHECKS AND ALERTING SYSTEM',
-      tech: ['PYTHON', 'POSTGRESQL', 'AWS'],
-      status: 'LIVE'
-    }
   ];
 
   const blogPosts = [
@@ -155,21 +144,14 @@ export default function App() {
             <PixelBlock />
           </h2>
           
-          <div className="space-y-8">
+          <div className="space-y-6">
             {Object.entries(skillCategories).map(([category, skills]) => (
-              <div key={category} className="border-2 border-black p-6 bg-white">
-                <h3 className="font-bold text-lg mb-4 text-center border-b-2 border-black pb-2">
+              <div key={category} className="border-2 border-black p-6 bg-white hover:bg-black hover:text-white transition-colors group">
+                <h3 className="font-bold text-lg mb-3 text-center">
                   {category}
                 </h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-                  {skills.map((skill) => (
-                    <div 
-                      key={skill}
-                      className="border border-black p-3 bg-white hover:bg-black hover:text-white transition-colors cursor-pointer text-center"
-                    >
-                      <div className="font-bold text-sm">{skill}</div>
-                    </div>
-                  ))}
+                <div className="text-center text-sm">
+                  {skills.join(' • ')}
                 </div>
               </div>
             ))}
@@ -230,7 +212,7 @@ export default function App() {
           
           <div className="grid md:grid-cols-2 gap-6">
             <a 
-              href="https://github.com/chriscollins" 
+              href="https://github.com/collinschris" 
               className="flex items-center justify-center gap-4 p-8 border-2 border-black bg-white hover:bg-black hover:text-white transition-colors group"
             >
               <Github className="h-8 w-8" />
@@ -238,7 +220,7 @@ export default function App() {
             </a>
             
             <a 
-              href="https://linkedin.com/in/chriscollins" 
+              href="https://www.linkedin.com/in/chris-collins-a9032565/" 
               className="flex items-center justify-center gap-4 p-8 border-2 border-black bg-white hover:bg-black hover:text-white transition-colors group"
             >
               <Linkedin className="h-8 w-8" />
