@@ -134,7 +134,7 @@ export default function App() {
           </h2>
           
           <div className="space-y-6">
-            {blogPosts.map((post, index) => (
+            {blogPosts.map((post) => (
               <Card key={post.title} className="bg-white border-2 border-white text-black p-6 hover:bg-black hover:text-white hover:border-white transition-colors group cursor-pointer">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
@@ -163,7 +163,7 @@ export default function App() {
           </h2>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {skills.map((skill, index) => (
+            {skills.map((skill) => (
               <div 
                 key={skill}
                 className="border-2 border-black p-4 bg-white hover:bg-black hover:text-white transition-colors cursor-pointer text-center"
@@ -185,7 +185,7 @@ export default function App() {
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
+            {projects.map((project) => (
               <Card key={project.title} className="bg-white border-2 border-white text-black p-6 hover:bg-black hover:text-white hover:border-white transition-colors group">
                 <div className="flex justify-between items-start mb-4">
                   <Badge className="bg-black text-white border border-black group-hover:bg-white group-hover:text-black text-xs font-mono">
