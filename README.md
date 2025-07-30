@@ -1,18 +1,10 @@
 # Chris Collins - Personal Website
 
-A modern, pixel-art themed personal website built with React and TypeScript.
+Simple static landing page
 
 ## 🚀 Live Site
 
 Visit the live site at: [https://collinschris.github.io](https://collinschris.github.io)
-
-## 🛠 Technologies
-
-- React 18
-- TypeScript
-- Tailwind CSS
-- Lucide React (icons)
-- Vite (build tool)
 
 ## 📦 Getting Started
 
@@ -59,33 +51,6 @@ To preview the production build locally:
 npm run preview
 ```
 
-## 🎨 Features
-
-- Responsive pixel-art themed design
-- Typing animation effect
-- Interactive hover states
-- Blog section
-- Skills showcase
-- Project portfolio
-- Social media links
-
-## 📁 Project Structure
-
-```
-├── components/
-│   ├── ui/           # Reusable UI components
-│   ├── figma/        # Components exported from Figma
-│   └── PixelArt.tsx  # Custom pixel art components
-├── styles/
-│   └── globals.css   # Global styles and Tailwind CSS
-├── App.tsx           # Main application component
-└── index.html        # HTML entry point
-```
-
 ## 🚀 Deployment
 
 This site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch. The site is configured to work with GitHub Pages at the domain `collinschris.github.io`.
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
