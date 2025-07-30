@@ -18,7 +18,7 @@ Visit the live site at: [https://collinschris.github.io](https://collinschris.gi
 
 ### Prerequisites
 
-- Node.js (version 16 or higher)
+- Node.js (version 24.4.0 recommended)
 - npm or yarn
 
 ### Installation
