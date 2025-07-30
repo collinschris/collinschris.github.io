@@ -9,7 +9,7 @@ export default function App() {
   const [displayText, setDisplayText] = useState('');
   const [isTyping, setIsTyping] = useState(true);
   
-  const fullText = 'SOFTWARE ENGINEER';
+  const fullText = 'ENGINEER AT HEART. LEADER BY TITLE.';
   
   useEffect(() => {
     let i = 0;
@@ -26,10 +26,13 @@ export default function App() {
     return () => clearInterval(typingInterval);
   }, []);
 
-  const skills = [
-    'JAVASCRIPT', 'TYPESCRIPT', 'REACT', 'NODE.JS', 'PYTHON', 'GO',
-    'DOCKER', 'AWS', 'POSTGRESQL', 'MONGODB', 'REDIS', 'GIT'
-  ];
+  const skillCategories = {
+    'DATA STORES': ['POSTGRES', 'BIGQUERY', 'BIGTABLE', 'GCS'],
+    'DATA MOVEMENT': ['APACHE BEAM', 'DATAFLOW', 'AIRFLOW', 'PUB/SUB', 'KAFKA'],
+    'LANGUAGES': ['JAVA', 'PYTHON', 'SQL'],
+    'OBSERVABILITY': ['PROMETHEUS', 'GRAFANA'],
+    'INFRASTRUCTURE': ['TERRAFORM', 'KUBERNETES', 'HELM']
+  };
 
   const projects = [
     {
@@ -54,20 +57,10 @@ export default function App() {
 
   const blogPosts = [
     {
-      title: 'BUILDING SCALABLE APIS WITH GO',
-      date: 'JAN 2025',
-      readTime: '5 MIN'
+      title: 'COMING SOON... GOTTA START SOMEWHERE, RIGHT?',
+      date: 'JUL 2025',
+      readTime: '0 MIN'
     },
-    {
-      title: 'REDIS OPTIMIZATION PATTERNS',
-      date: 'DEC 2024',
-      readTime: '8 MIN'
-    },
-    {
-      title: 'DOCKER IN PRODUCTION',
-      date: 'NOV 2024',
-      readTime: '12 MIN'
-    }
   ];
 
   return (
@@ -155,20 +148,29 @@ export default function App() {
 
       {/* Skills Section */}
       <section id="skills" className="relative z-20 py-20 px-4 bg-white">
-        <div className="container mx-auto max-w-4xl">
+        <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold mb-12 text-center flex items-center justify-center gap-4">
             <PixelBlock />
             <span>SKILLS</span>
             <PixelBlock />
           </h2>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {skills.map((skill) => (
-              <div 
-                key={skill}
-                className="border-2 border-black p-4 bg-white hover:bg-black hover:text-white transition-colors cursor-pointer text-center"
-              >
-                <div className="font-bold text-sm">{skill}</div>
+          <div className="space-y-8">
+            {Object.entries(skillCategories).map(([category, skills]) => (
+              <div key={category} className="border-2 border-black p-6 bg-white">
+                <h3 className="font-bold text-lg mb-4 text-center border-b-2 border-black pb-2">
+                  {category}
+                </h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  {skills.map((skill) => (
+                    <div 
+                      key={skill}
+                      className="border border-black p-3 bg-white hover:bg-black hover:text-white transition-colors cursor-pointer text-center"
+                    >
+                      <div className="font-bold text-sm">{skill}</div>
+                    </div>
+                  ))}
+                </div>
               </div>
             ))}
           </div>
